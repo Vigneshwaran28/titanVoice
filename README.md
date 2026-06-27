@@ -97,13 +97,3 @@ into memory). Leave this terminal window open and running during your call.
   specific product or script.
 - Uses the deprecated `ScriptProcessorNode` for audio processing (works fine,
   but should move to `AudioWorklet` before any real deployment).
-
-## Suggested next steps
-
-1. Add a consent banner that shows automatically when capture starts
-2. Add a vector DB (ChromaDB) with your sales playbook/FAQ + product info,
-   and retrieve relevant context before the LLM call so suggestions are
-   specific, not generic
-3. Move to `AudioWorklet` instead of `ScriptProcessorNode`
-4. If you need real speaker separation, look at a Puppeteer-based meeting
-   bot joining the call instead of using `tabCapture`
