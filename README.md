@@ -1,4 +1,4 @@
-# TitanHand — Live Sales Call Assist
+# TitanVoice — Assist
 
 Free/open-source stack. Listens to a Google Meet / Zoom Web call, transcribes
 speech locally (faster-whisper), and shows an AI-suggested response (via a
